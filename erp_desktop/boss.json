@@ -1,0 +1,11 @@
+{
+	"name": "Playtronic_ERP_Desktop",
+	"description": "ERP desktop",
+	"version": "1.0.0",
+	"homepage": "playtronic.com.br",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/bittencourtthulio/router4delphi": "^1.0.8"
+	}
+}

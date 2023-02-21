@@ -1,0 +1,22 @@
+program erp_desktop;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  ERPdesktop.View.Principal in 'src\View\ERPdesktop.View.Principal.pas' {Form1},
+  ERPdesktop.Styles.Basics in 'src\Styles\ERPdesktop.Styles.Basics.pas',
+  ERPdesktop.View.Auth.Login in 'src\View\Auth\ERPdesktop.View.Auth.Login.pas' {Form2},
+  ERPdesktop.View.Splash in 'src\View\ERPdesktop.View.Splash.pas' {Form3},
+  ERPdesktop.View.Usuarios.Listagem in 'src\View\Usuarios\ERPdesktop.View.Usuarios.Listagem.pas' {Form4};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.Run;
+end.

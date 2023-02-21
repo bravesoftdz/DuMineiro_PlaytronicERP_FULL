@@ -1,0 +1,12 @@
+{
+	"name": "Playtronic_ERP_AppForcaVendas",
+	"description": "Aplciativo para Força de Vendas do Playtronic ERP",
+	"version": "1.0.0",
+	"homepage": "playtronic.com.br",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/viniciussanchez/restrequest4delphi": "^v3.0.19",
+		"https://github.com/bittencourtthulio/router4delphi": "^1.0.8"
+	}
+}

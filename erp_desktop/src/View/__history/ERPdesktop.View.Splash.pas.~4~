@@ -1,0 +1,81 @@
+unit ERPdesktop.View.Splash;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.StdCtrls, FMX.Controls.Presentation, FMX.Objects;
+
+type
+  TfrmSplah = class(TForm)
+    LayoutForm: TLayout;
+    layoutSafeArea: TLayout;
+    Image1: TImage;
+    lblMessages: TLabel;
+    ProgressBar: TProgressBar;
+    tmrLoad: TTimer;
+    procedure tmrLoadTimer(Sender: TObject);
+  private
+    { Private declarations }
+    procedure changeView();
+    procedure writeMessage(msg:string);
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSplah: TfrmSplah;
+
+implementation
+
+{$R *.fmx}
+
+uses ERPdesktop.View.Pages.Auth.Login;
+
+procedure TfrmSplah.changeView;
+begin
+self.writeMessage('Pronto.');
+  ProgressBar.Value := ProgressBar.Value + 1;
+    tmrLoad.Enabled := False;
+    if not Assigned(frmLogin) then
+    frmLogin := TfrmLogin.Create(Application);
+  try
+    Application.MainForm := frmLogin;
+    Self.Close;
+    frmLogin.Show;
+  except on E: Exception do
+    ShowMessage('Falha catastrófica no sistema, comunique o setor de T.I.');
+  end;
+end;
+
+procedure TfrmSplah.tmrLoadTimer(Sender: TObject);
+begin
+    if (ProgressBar.Value < 100 )then
+  begin
+    Self.writeMessage('');
+    ProgressBar.Value := ProgressBar.Value + 1
+  end
+  else
+    changeView;
+end;
+
+procedure TfrmSplah.writeMessage(msg: string);
+begin
+   if(msg = '')then
+  begin
+    if ProgressBar.Value = 5  then lblMessages.Text := 'Verificando comunicação com servidor...';
+    if ProgressBar.Value = 21 then lblMessages.Text := 'Sincronizando tabelas locais...';
+    if ProgressBar.Value = 30 then lblMessages.Text := 'Verificando atualizações...';
+    if ProgressBar.Value = 52 then lblMessages.Text := 'Analizando periféricos...';
+    if ProgressBar.Value = 63 then lblMessages.Text := 'Validado configurações...';
+    if ProgressBar.Value = 78 then lblMessages.Text := 'Carregando componentes...';
+    if ProgressBar.Value = 91 then lblMessages.Text := 'Montando interface do sistema...';
+  end
+  else
+  begin
+    lblMessages.Text := msg;
+  end;
+end;
+
+end.

@@ -1,0 +1,24 @@
+unit ERPdesktop.View.Pages.inicio;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
+
+type
+  TfrmInicio = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmInicio: TfrmInicio;
+
+implementation
+
+{$R *.fmx}
+
+end.

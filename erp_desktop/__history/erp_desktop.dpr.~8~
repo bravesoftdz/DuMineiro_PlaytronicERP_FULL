@@ -1,0 +1,17 @@
+program erp_desktop;
+
+
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  ERPdesktop.View.Principal in 'src\View\Pages\ERPdesktop.View.Principal.pas' {frmPrincipal};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.Run;
+end.

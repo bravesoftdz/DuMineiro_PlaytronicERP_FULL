@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/12 19:33:15.000.035,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 10:32:18.000.746,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:13:15.000.467,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:13:38.000.375,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\erp_desktop.dproj=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/17 13:23:29.000.167,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:25:19.000.128,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Styles\ERPdesktop.View.Styles.Colors.pas</Transaction>
+    <Transaction>2023/01/17 13:30:26.000.966,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:32:13.000.937,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:33:12.000.771,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Principal.pas</Transaction>
+    <Transaction>2023/01/17 13:33:12.000.771,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Principal.fmx</Transaction>
+    <Transaction>2023/01/17 13:34:46.000.573,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\Styles\ERPdesktop.Styles.Basics.pas</Transaction>
+    <Transaction>2023/01/17 13:35:25.000.378,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit2.pas</Transaction>
+    <Transaction>2023/01/17 13:38:59.000.970,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit2.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Auth\ERPdesktop.View.Auth.Login.pas</Transaction>
+    <Transaction>2023/01/17 13:38:59.000.970,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit2.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Auth\ERPdesktop.View.Auth.Login.fmx</Transaction>
+    <Transaction>2023/01/17 13:39:19.000.711,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit3.pas</Transaction>
+    <Transaction>2023/01/17 13:39:43.000.702,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit3.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Splash.fmx</Transaction>
+    <Transaction>2023/01/17 13:39:43.000.702,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit3.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Splash.pas</Transaction>
+    <Transaction>2023/01/17 13:41:35.000.838,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit4.pas</Transaction>
+    <Transaction>2023/01/17 13:42:04.000.676,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit4.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Usuarios\ERPdesktop.View.Usuarios.Listagem.pas</Transaction>
+    <Transaction>2023/01/17 13:42:04.000.676,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit4.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Usuarios\ERPdesktop.View.Usuarios.Listagem.fmx</Transaction>
+    <Transaction>2023/01/17 13:42:15.000.510,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit5.pas</Transaction>
+    <Transaction>2023/01/17 13:48:06.000.739,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\Styles\ERPdesktop.Styles.Basics.pas=</Transaction>
+    <Transaction>2023/01/17 13:49:39.000.807,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:50:03.000.759,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Usuarios\ERPdesktop.View.Usuarios.Listagem.pas=</Transaction>
+    <Transaction>2023/01/17 13:50:08.000.372,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Auth\ERPdesktop.View.Auth.Login.pas=</Transaction>
+    <Transaction>2023/01/17 13:50:11.000.528,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Principal.pas=</Transaction>
+    <Transaction>2023/01/17 13:50:14.000.886,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Splash.pas=</Transaction>
+    <Transaction>2023/01/17 13:52:17.000.964,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.pas</Transaction>
+    <Transaction>2023/01/17 13:52:50.000.950,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.pas=</Transaction>
+    <Transaction>2023/01/17 13:53:05.000.413,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:53:49.000.360,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Principal.pas</Transaction>
+    <Transaction>2023/01/17 13:53:49.000.360,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Principal.fmx</Transaction>
+    <Transaction>2023/01/17 13:54:12.000.395,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:54:29.000.756,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Auth.Login.pas</Transaction>
+    <Transaction>2023/01/17 13:54:29.000.756,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Auth.Login.fmx</Transaction>
+    <Transaction>2023/01/17 13:54:56.000.278,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:55:22.000.343,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.fmx</Transaction>
+    <Transaction>2023/01/17 13:55:22.000.343,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.pas</Transaction>
+    <Transaction>2023/01/17 13:55:32.000.263,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 13:56:11.000.168,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Usuarios.Index.pas</Transaction>
+    <Transaction>2023/01/17 13:56:11.000.168,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Usuarios.Index.fmx</Transaction>
+    <Transaction>2023/01/17 14:26:30.000.893,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 14:28:11.000.527,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Routers\ERPdesktop.View.Routers.pas</Transaction>
+    <Transaction>2023/01/17 14:32:34.000.145,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 14:33:29.000.769,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Main.fmx</Transaction>
+    <Transaction>2023/01/17 14:33:29.000.769,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Main.pas</Transaction>
+    <Transaction>2023/01/17 14:34:28.000.815,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Principal.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.inicio.fmx</Transaction>
+    <Transaction>2023/01/17 14:34:28.000.815,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Principal.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.inicio.pas</Transaction>
+    <Transaction>2023/01/17 14:34:58.000.965,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Splash.pas</Transaction>
+    <Transaction>2023/01/17 14:34:58.000.965,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Splash.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Splash.fmx</Transaction>
+    <Transaction>2023/01/17 14:35:39.000.034,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.inicio.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.Inicio.pas</Transaction>
+    <Transaction>2023/01/17 14:35:39.000.035,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.inicio.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\ERPdesktop.View.Pages.Inicio.fmx</Transaction>
+    <Transaction>2023/01/17 14:35:58.000.243,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Usuarios.Index.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Pages.Usuarios.Index.fmx</Transaction>
+    <Transaction>2023/01/17 14:35:58.000.243,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Usuarios.Index.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Usuarios\ERPdesktop.View.Pages.Usuarios.Index.pas</Transaction>
+    <Transaction>2023/01/17 14:36:19.000.940,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Auth.Login.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Pages.Auth.Login.fmx</Transaction>
+    <Transaction>2023/01/17 14:36:19.000.940,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Auth.Login.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\Pages\Auth\ERPdesktop.View.Pages.Auth.Login.pas</Transaction>
+    <Transaction>2023/01/17 14:43:50.000.169,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Main.fmx=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Principal.fmx</Transaction>
+    <Transaction>2023/01/17 14:43:50.000.169,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Main.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\View\ERPdesktop.View.Principal.pas</Transaction>
+    <Transaction>2023/01/18 11:50:57.000.022,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\Utils\FileINI.pas</Transaction>
+    <Transaction>2023/01/18 11:50:57.000.141,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\erp_desktop\src\Utils\Loading.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

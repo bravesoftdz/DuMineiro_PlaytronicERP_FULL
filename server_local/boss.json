@@ -1,0 +1,13 @@
+{
+	"name": "Playtronic_ERP_Serverlocal",
+	"description": "Servidor local",
+	"version": "1.0.0",
+	"homepage": "playtronic.com.br",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/bittencourtthulio/horse-paginate": "^1.0.2",
+		"github.com/hashload/horse": "^3.0.2",
+		"https://github.com/bittencourtthulio/router4delphi": "^1.0.8"
+	}
+}

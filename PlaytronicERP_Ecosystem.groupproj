@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B3ADB9E2-FA45-45DF-990A-23ACE395B1DB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="server_cloud\server_cloud.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="server_global\server_global.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="server_local\server_local.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="app_forca_vendas\app_forca_vendas.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="erp_desktop\erp_desktop.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="server_cloud">
+        <MSBuild Projects="server_cloud\server_cloud.dproj"/>
+    </Target>
+    <Target Name="server_cloud:Clean">
+        <MSBuild Projects="server_cloud\server_cloud.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="server_cloud:Make">
+        <MSBuild Projects="server_cloud\server_cloud.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="server_global">
+        <MSBuild Projects="server_global\server_global.dproj"/>
+    </Target>
+    <Target Name="server_global:Clean">
+        <MSBuild Projects="server_global\server_global.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="server_global:Make">
+        <MSBuild Projects="server_global\server_global.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="server_local">
+        <MSBuild Projects="server_local\server_local.dproj"/>
+    </Target>
+    <Target Name="server_local:Clean">
+        <MSBuild Projects="server_local\server_local.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="server_local:Make">
+        <MSBuild Projects="server_local\server_local.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="app_forca_vendas">
+        <MSBuild Projects="app_forca_vendas\app_forca_vendas.dproj"/>
+    </Target>
+    <Target Name="app_forca_vendas:Clean">
+        <MSBuild Projects="app_forca_vendas\app_forca_vendas.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="app_forca_vendas:Make">
+        <MSBuild Projects="app_forca_vendas\app_forca_vendas.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="erp_desktop">
+        <MSBuild Projects="erp_desktop\erp_desktop.dproj"/>
+    </Target>
+    <Target Name="erp_desktop:Clean">
+        <MSBuild Projects="erp_desktop\erp_desktop.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="erp_desktop:Make">
+        <MSBuild Projects="erp_desktop\erp_desktop.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="server_cloud;server_global;server_local;app_forca_vendas;erp_desktop"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="server_cloud:Clean;server_global:Clean;server_local:Clean;app_forca_vendas:Clean;erp_desktop:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="server_cloud:Make;server_global:Make;server_local:Make;app_forca_vendas:Make;erp_desktop:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

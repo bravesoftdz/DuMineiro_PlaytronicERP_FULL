@@ -1,0 +1,198 @@
+unit ERPdesktop.View.Principal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.Objects, FMX.StdCtrls, FMX.Controls.Presentation, System.Actions,
+  FMX.ActnList;
+
+type
+  TfrmPrincipal = class(TForm)
+    LayoutForm: TLayout;
+    TEMPLATE: TImage;
+    RectangleBotton: TRectangle;
+    RectangleTop: TRectangle;
+    RectangleLeftLine: TRectangle;
+    RectangleRigthLine: TRectangle;
+    RectangleTopLeftLine: TRectangle;
+    RectangleTopRigthLine: TRectangle;
+    RectangleBottonLeftLine: TRectangle;
+    RectangleBottonRigthLine: TRectangle;
+    RectangleContent: TRectangle;
+    RectangleAsideLeft: TRectangle;
+    RectangleItemsLeft: TRectangle;
+    Image1: TImage;
+    btnAtalhos: TSpeedButton;
+    btnPainelAtendimento: TSpeedButton;
+    RectangleItemsRigth: TRectangle;
+    rectangleTopNotifications: TRectangle;
+    LayoutItemsCenter: TLayout;
+    imageIconNotifications: TImage;
+    LayoutTop: TLayout;
+    LayoutItemsLeft: TLayout;
+    LayoutItemsRigth: TLayout;
+    lblBemVindo: TLabel;
+    RectangleButtonHome: TRectangle;
+    rectLineHome: TRectangle;
+    rectIconHome: TRectangle;
+    LayoutAsideLeftContents: TLayout;
+    LayoutBottom: TLayout;
+    LayoutCenter: TLayout;
+    recLabelHome: TRectangle;
+    Label1: TLabel;
+    Image2: TImage;
+    LayoutSidebarIcons: TLayout;
+    LayoutSidebarButtons: TLayout;
+    ActionList1: TActionList;
+    actInicio: TAction;
+    actVendas: TAction;
+    VertScrollBox1: TVertScrollBox;
+    actEstoque: TAction;
+    actLogistica: TAction;
+    actCompras: TAction;
+    actFinanceiro: TAction;
+    actRH: TAction;
+    actFiscal: TAction;
+    actConfiguracoes: TAction;
+    actDashboards: TAction;
+    actPDV: TAction;
+    actLojaVirtual: TAction;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    Rectangle3: TRectangle;
+    Rectangle4: TRectangle;
+    Rectangle5: TRectangle;
+    Rectangle6: TRectangle;
+    Rectangle7: TRectangle;
+    Rectangle8: TRectangle;
+    Rectangle9: TRectangle;
+    Rectangle10: TRectangle;
+    Rectangle11: TRectangle;
+    Rectangle12: TRectangle;
+    Rectangle13: TRectangle;
+    Rectangle14: TRectangle;
+    Rectangle15: TRectangle;
+    Rectangle16: TRectangle;
+    Rectangle17: TRectangle;
+    Rectangle18: TRectangle;
+    Rectangle19: TRectangle;
+    Rectangle20: TRectangle;
+    Rectangle21: TRectangle;
+    Label2: TLabel;
+    Image3: TImage;
+    Rectangle22: TRectangle;
+    Label3: TLabel;
+    Image4: TImage;
+    Rectangle23: TRectangle;
+    Label4: TLabel;
+    Image5: TImage;
+    Rectangle24: TRectangle;
+    Label5: TLabel;
+    Image6: TImage;
+    Rectangle25: TRectangle;
+    Label6: TLabel;
+    Image7: TImage;
+    Rectangle26: TRectangle;
+    Label7: TLabel;
+    Image8: TImage;
+    Rectangle27: TRectangle;
+    Label8: TLabel;
+    Image9: TImage;
+    Rectangle28: TRectangle;
+    Label9: TLabel;
+    Image10: TImage;
+    Rectangle29: TRectangle;
+    Label10: TLabel;
+    Image11: TImage;
+    Rectangle30: TRectangle;
+    Label11: TLabel;
+    Image12: TImage;
+    Rectangle31: TRectangle;
+    Label12: TLabel;
+    Image13: TImage;
+    Rectangle32: TRectangle;
+    Rectangle33: TRectangle;
+    Image14: TImage;
+    Image15: TImage;
+    Image16: TImage;
+    Image17: TImage;
+    Image18: TImage;
+    Image19: TImage;
+    Image20: TImage;
+    Image21: TImage;
+    Image22: TImage;
+    Image23: TImage;
+    Image24: TImage;
+    Image25: TImage;
+    procedure openSidebar(Sender: TObject);
+    procedure closeSidebar(Sender: TObject);
+    procedure FormResize(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure openSidebarOnExternal;
+    procedure closeSidebarOnExternal;
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.fmx}
+
+{ TfrmPrincipal }
+
+
+ //if (validateAccess(
+ //     txtLogin.Text.Trim,
+ //     txtSenha.Text.Trim,
+ //     cmbFilial.ItemIndex.ToString())
+ //   ) then
+ // begin
+ //   changeToPrincipal;
+ // end
+ // else
+ // begin
+ //   ShowMessage('Acesso não autorizado!');
+
+
+
+procedure TfrmPrincipal.closeSidebar;
+begin
+  RectangleAsideLeft.Width := 49;
+  LayoutSidebarButtons.Visible := False;
+end;
+
+procedure TfrmPrincipal.closeSidebarOnExternal;
+begin
+   self.closeSidebar(self);
+end;
+
+procedure TfrmPrincipal.FormResize(Sender: TObject);
+begin
+   self.closeSidebar(self);
+end;
+
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  self.closeSidebar(self);
+end;
+
+procedure TfrmPrincipal.openSidebar(Sender: TObject);
+begin
+  RectangleAsideLeft.Width := 177;
+   LayoutSidebarButtons.Visible := True;
+end;
+
+procedure TfrmPrincipal.openSidebarOnExternal;
+begin
+   self.openSidebar(self);
+end;
+
+
+end.

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/12 19:33:15.000.035,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 10:32:18.000.746,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:08:44.000.970,C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\server_cloud.dproj</Transaction>
+    <Transaction>2023/01/17 11:16:10.000.144,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:33:47.000.764,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:34:47.000.875,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\src\controllers\UsersController.pas</Transaction>
+    <Transaction>2023/01/17 11:35:36.000.161,=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:44:05.000.381,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_cloud\src\controllers\UsersController.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

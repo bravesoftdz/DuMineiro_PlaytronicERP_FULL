@@ -1,0 +1,23 @@
+unit UsersController;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TUsersController = class
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function list(): TArray<String>;
+  end;
+
+implementation
+
+
+{$R *.dfm}
+
+end.
+

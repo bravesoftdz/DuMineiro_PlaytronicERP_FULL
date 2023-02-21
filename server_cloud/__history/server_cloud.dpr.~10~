@@ -1,0 +1,19 @@
+program server_cloud;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  Horse,
+  UsersController in 'src\controllers\UsersController.pas';
+
+begin
+  THorse.Get('/users',
+    procedure(Req: THorseRequest; Res: THorseResponse; Next: TProc)
+    begin
+      Res.Send('pong');
+    end);
+
+  THorse.Listen(9000);
+end.

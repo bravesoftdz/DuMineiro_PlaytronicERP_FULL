@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/12 19:33:15.000.035,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 10:32:18.000.746,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:09:02.000.071,=C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 11:09:49.000.051,C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_global\server_global.dfm</Transaction>
+    <Transaction>2023/01/17 11:09:49.000.051,C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_global\server_global.pas</Transaction>
+    <Transaction>2023/01/17 11:10:25.000.487,D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_global\server_global.pas=</Transaction>
+    <Transaction>2023/01/17 11:11:06.000.647,C:\Users\jsant\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\_workspaces\_projects\customers\DuMineiro\PlaytronicERP\server_global\server_global.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,25 @@
+program server_cloud;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  Horse, System.SysUtils;
+
+begin
+  THorse.Get('seft-test',
+  procedure(Req: THorseRequest; Res:THorseResponse; Next: TProc; Horse: THorse)
+    begin
+
+    end)
+
+    Writeln('Request GET /seft-test)');
+    //Res.Send('Host: ' + Horse.Host + ' Port: ' + Horse.Port.ToString + ' Status: Running...');
+  end);
+
+  THorse.Listen(9000, procedure(Horse: THorse)
+    begin
+      Writeln('Server listen on port: ' + Horse.Port.ToString);
+    end);
+end.
